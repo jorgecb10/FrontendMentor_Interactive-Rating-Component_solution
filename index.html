@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="bg-very-dark-blue flex flex-col items-center justify-center font-overpass relative">
+  <main class="contenedor p-7 rounded-2xl">
+    <img class="bg-dark-blue brightness-125 p-2.5 rounded-full w-9" src="src/images/icon-star.svg" alt="icon-estrella">
+
+    <h1 class="text-white mt-5 text-2xl">
+      How did we to?
+    </h1>
+    <p class="text-light-grey mt-3 mb-5">
+      Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
+
+    <ul class="flex justify-between mb-5">
+      <a class="btn-calificacion bg-dark-blue brightness-105 text-light-grey p-5 rounded-full size-0 flex items-center justify-center hover:bg-orange-hsl hover:text-dark-blue cursor-pointer">1</a>
+      <a class="btn-calificacion bg-dark-blue brightness-105 text-light-grey p-5 rounded-full size-0 flex items-center justify-center hover:bg-orange-hsl hover:text-dark-blue cursor-pointer">2</a>
+      <a class="btn-calificacion bg-dark-blue brightness-105 text-light-grey p-5 rounded-full size-0 flex items-center justify-center hover:bg-orange-hsl hover:text-dark-blue cursor-pointer">3</a>
+      <a class="btn-calificacion bg-dark-blue brightness-105 text-light-grey p-5 rounded-full size-0 flex items-center justify-center hover:bg-orange-hsl hover:text-dark-blue cursor-pointer">4</a>
+      <a class="btn-calificacion bg-dark-blue brightness-105 text-light-grey p-5 rounded-full size-0 flex items-center justify-center hover:bg-orange-hsl hover:text-dark-blue cursor-pointer">5</a>
+    </ul>
+
+    <a id="submit" class="bg-orange-hsl block text-center rounded-3xl p-3 uppercase font-bold tracking-wider cursor-pointer hover:bg-white transition-colors">Submit</a>
+  </main>
+  
+  <footer class="attribution absolute bottom-2 text-center text-light-grey">
+    Challenge by <a class="font-bold text-orange-hsl" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="font-bold text-orange-hsl" href="https://github.com/jorgecb10">Jorge Carranza</a>.
+  </footer>
+
+  <script src="src/js/app.js"></script>
+</body>
+</html>
